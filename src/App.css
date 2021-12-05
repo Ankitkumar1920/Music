@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.app {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  text-align: center;
+}
+
+.container {
+  height: 500px;
+  width: 430px;
+}
+
+.wrapper {
+  position: relative;
+  background: #fff;
+  height: 500px;
+  width: 100%;
+  border: 2px dashed #c2cdda;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
